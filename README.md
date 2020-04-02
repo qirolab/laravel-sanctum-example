@@ -1,6 +1,6 @@
 # Laravel Sanctum Example
 
-Watch tutorial: **[SPA Authentication using Vue.js And Laravel Sanctum](https://www.youtube.com/watch?v=8Uwn5M6WTe0)**.
+Watch tutorial: **[API Token Authentication using Vue.js And Laravel Sanctum](https://www.youtube.com/watch?v=2bslfjKEAik)**.
 
 ## Laravel setup
 

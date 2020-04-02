@@ -43,7 +43,8 @@ export default {
     return {
       form: {
         email: "",
-        password: ""
+        password: "",
+        device_name: "browser"
       },
       errors: []
     };
@@ -52,9 +53,9 @@ export default {
   methods: {
     login() {
       User.login(this.form)
-        .then(() => {
+        .then(response => {
           this.$root.$emit("login", true);
-          localStorage.setItem("auth", "true");
+          localStorage.setItem("token", response.data);
           this.$router.push({ name: "Dashboard" });
         })
         .catch(error => {

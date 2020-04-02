@@ -53,13 +53,13 @@ export default {
       this.isLoggedIn = true;
     });
 
-    this.isLoggedIn = !!localStorage.getItem("auth");
+    this.isLoggedIn = !!localStorage.getItem("token");
   },
 
   methods: {
     logout() {
       User.logout().then(() => {
-        localStorage.removeItem("auth");
+        localStorage.removeItem("token");
         this.isLoggedIn = false;
         this.$router.push({ name: "Home" });
       });
