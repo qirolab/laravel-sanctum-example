@@ -39,3 +39,6 @@ npm install
 ```
 npm run serve
 ```
+
+## Download your copy of the eBook today and become a JavaScript pro
+[![JavaScript: ES2015 to ES2023](https://i.imgur.com/YyCohWc.png)](https://qirolab.gumroad.com/l/javascript-from-es2015-to-es2023)
